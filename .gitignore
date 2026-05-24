@@ -1,0 +1,18 @@
+# Ignore everything
+*
+
+# But keep this file
+!.gitignore
+
+# Keep the main app
+!StudyApp.py
+
+# Keep the folders themselves
+!Music/
+Music/*
+!Music/.gitkeep
+
+# Ignore everything inside those folders
+!AlbumCover/
+AlbumCover/*
+!AlbumCover/.gitkeep
